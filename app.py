@@ -1,6 +1,7 @@
 
 
 from streamlit_option_menu import option_menu
+from xgboost import XGBRegressor
 import pandas as pd
 import numpy as np 
 import streamlit as st
