@@ -3,6 +3,7 @@ from xgboost import XGBRegressor
 import streamlit as st
 import numpy as np
 import pickle 
+import sklearn
 
 global model 
 with open('iron_concentrate','rb') as file:
