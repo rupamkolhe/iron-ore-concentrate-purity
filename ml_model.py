@@ -40,5 +40,5 @@ def ML_Model():
         p = st.number_input('FC3 Level',min_value=126.0,max_value=886.0,step=2.0,value=531.35)
         t = st.number_input('FC7 Level',min_value=175.0,max_value=659.0,step=2.0,value=421.02)
     fVec = np.array([a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]).reshape(1,20)
-    st.header('Expected Purity of Iron ore concentration :- '+str(round(model.predict(fVec)[0],2))+'%')
+    st.header("Expected Purity of Iron ore concentration :- "+str(round(model.predict(fVec)[0],2))+"%")
     
